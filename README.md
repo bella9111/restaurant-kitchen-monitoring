@@ -1,72 +1,77 @@
 <div align="center">
 
-# 🍽️ Restaurant Kitchen Monitoring 🍽️
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,24&height=230&section=header&text=🍕%20Restaurant%20Kitchen%20Monitoring%20🍔&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Real-Time%20Kitchen%20Performance%20Intelligence&descAlignY=60&descSize=20" width="100%"/>
 
-### 🔥 Real-Time Kitchen Performance Intelligence 🔥
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF6B35&center=true&vCenter=true&width=700&lines=🍔+Orders+in...+Data+out!+🔥;🍕+Hot+data%2C+served+in+real+time!;🍟+Kafka+%2B+NiFi+%2B+Spark+%2B+PostgreSQL;🚨+No+late+orders+in+this+kitchen!" alt="Typing SVG" />
 
-![Restaurant](https://img.shields.io/badge/Restaurant-Kitchen%20Monitoring-FF6B35?style=for-the-badge&logo=foodpanda&logoColor=white)
-![Real-Time](https://img.shields.io/badge/Real%20Time-Streaming-FFD23F?style=for-the-badge&logo=apachespark&logoColor=black)
-![Big Data](https://img.shields.io/badge/Big%20Data-Pipeline-8E44AD?style=for-the-badge&logo=apache&logoColor=white)
+<br/>
+
+![Restaurant](https://img.shields.io/badge/🍽️_Restaurant-Kitchen_Monitoring-FF6B35?style=for-the-badge)
+![Real-Time](https://img.shields.io/badge/⚡_Real_Time-Streaming-FFD23F?style=for-the-badge&labelColor=black)
+![Big Data](https://img.shields.io/badge/🍔_Big_Data-Pipeline-C0392B?style=for-the-badge)
 
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![NiFi](https://img.shields.io/badge/NiFi-9D3747?style=for-the-badge&logo=apache&logoColor=white)
 ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-FFD43B?style=for-the-badge&logo=python&logoColor=black)
 
-### 🍕 🔥 🍔 🥗 🍟 🥤 🔥 🍕
+### 🍕 🍔 🍟 🌭 🥗 🌮 🥤 🍗 🧀 🍩 🔥
 
 </div>
 
 ---
 
-## 🎬 Live Kitchen Dashboard
-
 <div align="center">
+
+## 🔥 NOW SERVING 🔥
 
 ![Kitchen Animation](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
+> 👨‍🍳 *"Every order counts. Every second matters."* 🕐
+
 </div>
 
 ---
 
-## 🍔 Menu of the Pipeline
-
 <div align="center">
 
-### 🧾 The Kitchen Data Menu
+# 🧾 ✨ THE KITCHEN DATA MENU ✨ 🧾
+
+### 🍴 *Fresh • Hot • Real-Time* 🍴
 
 | 🍽️ Course | 🧠 Tool | 🔥 What It Does |
-|---|---|---|
-| 🥗 **Starter** | 🟢 Producer | Sends live order events to Kafka |
-| 🍞 **Bread** | 🔴 Kafka | Stores and streams events in topics |
-| 🍝 **Main Course** | 🟠 NiFi | Cleans, validates, and transforms data |
-| 🍛 **Special Dish** | 🟡 Spark | Calculates prep time, queue, and alerts |
-| 🍰 **Dessert** | 🔵 PostgreSQL | Stores results and alerts |
-| 🥤 **Drink** | 🟣 Dashboard | Shows KPIs and live kitchen status |
+|:---:|:---:|---|
+| 🥗 **Starter** | 🟢 **Producer** | Sends live order events to Kafka 🚀 |
+| 🍞 **Bread** | 🔴 **Kafka** | Stores & streams events in topics 📨 |
+| 🍝 **Main Course** | 🟠 **NiFi** | Cleans, validates & transforms data 🧼 |
+| 🍛 **Special Dish** | 🟡 **Spark** | Calculates prep time, queue & alerts ⚡ |
+| 🍰 **Dessert** | 🔵 **PostgreSQL** | Stores results & alerts 🗄️ |
+| 🥤 **Drink** | 🟣 **Dashboard** | Shows KPIs & live kitchen status 📊 |
 
 </div>
 
 ---
 
-## 🚀 The Magic Pipeline
-
 <div align="center">
 
+# 🛵 THE MAGIC PIPELINE 🛵
+
 ```text
-🍔 Producer
-      ↓
-🔴 Kafka
-      ↓
-🟠 NiFi ETL
-      ↓
-🔴 Kafka
-      ↓
-🟡 Spark Streaming
-      ↓
-🔵 PostgreSQL
-      ↓
-🟣 Dashboard
+  👨‍🍳 🍔  Producer          →  "Order up!"
+        ⬇️
+  📨 🔴  Kafka (raw)        →  "Order received!"
+        ⬇️
+  🧼 🟠  NiFi ETL           →  "Wash, chop & season"
+        ⬇️
+  📨 🔴  Kafka (cleaned)    →  "Ready for the grill"
+        ⬇️
+  ⚡ 🟡  Spark Streaming    →  "Cooking the numbers"
+        ⬇️
+  🗄️ 🔵  PostgreSQL         →  "Into the fridge"
+        ⬇️
+  📺 🟣  Dashboard          →  "Served hot!" 🍽️
 ```
 
 </div>
@@ -75,25 +80,29 @@
 
 ## 🧨 What This Project Does
 
-This project monitors live order processing and preparation performance inside high-volume commercial kitchens and restaurant chains.
+This project monitors live order processing and preparation performance inside high-volume commercial kitchens and restaurant chains. 🏪
 
-It tracks:
+<div align="center">
 
-- 🍔 Order placement  
-- 🍳 Preparation start  
-- 🍕 Preparation completion  
-- ⏱️ Preparation duration  
-- 🚦 Kitchen station status  
-- 🚨 Late order alerts  
-- 📊 Real-time queue length  
+| 🍳 Tracks | 🎯 Why it matters |
+|:---|:---|
+| 🍔 Order placement | Know when the rush starts |
+| 🔪 Preparation start | See which station picked it up |
+| 🍕 Preparation completion | Measure real cooking time |
+| ⏱️ Preparation duration | Spot slow dishes |
+| 🚦 Kitchen station status | Green / Yellow / Red at a glance |
+| 🚨 Late order alerts | Fix problems before customers notice |
+| 📊 Real-time queue length | Balance the load between stations |
+
+</div>
 
 ---
 
-## 📊 Dataset
+## 📊 Dataset 🥡
 
-The dataset used in this project is the **Food Delivery Order History Data** from Kaggle.
+The dataset used in this project is the **Food Delivery Order History Data** from Kaggle. 🛍️
 
-🔗 [View Dataset on Kaggle](https://www.kaggle.com/datasets/sujalsuthar/food-delivery-order-history-data/versions/1)
+🔗 [**View Dataset on Kaggle**](https://www.kaggle.com/datasets/sujalsuthar/food-delivery-order-history-data/versions/1)
 
 The cleaned dataset is stored in:
 
@@ -101,14 +110,14 @@ The cleaned dataset is stored in:
 data/food_delivery_orders_cleaned.csv
 ```
 
-### ✨ Added Columns
+### ✨ Added Columns (our secret sauce 🌶️)
 
-| Column | Description |
+| 🧂 Column | 📝 Description |
 |---|---|
-| `menu_category` | Category of the ordered item |
-| `kitchen_station` | Kitchen station responsible for preparation |
-| `prep_started_at` | Time when preparation started |
-| `prep_completed_at` | Time when preparation completed |
+| `menu_category` 🍔 | Category of the ordered item |
+| `kitchen_station` 🔥 | Kitchen station responsible for preparation |
+| `prep_started_at` ⏰ | Time when preparation started |
+| `prep_completed_at` ✅ | Time when preparation completed |
 
 The preparation duration is based on:
 
@@ -118,144 +127,152 @@ KPT duration (minutes)
 
 ---
 
-## 🔥 Kafka Topics
+## 📨 Kafka Topics 🍟
 
-| Topic | Purpose |
+| 🏷️ Topic | 🎯 Purpose |
 |---|---|
-| `kitchen-orders-raw` | Receives raw order events from the producer |
-| `kitchen-orders-cleaned` | Receives cleaned and transformed events from NiFi |
-| `kitchen-alerts` | Receives alerts generated by Spark |
+| `kitchen-orders-raw` 🥩 | Receives raw order events from the producer |
+| `kitchen-orders-cleaned` 🥗 | Receives cleaned and transformed events from NiFi |
+| `kitchen-alerts` 🚨 | Receives alerts generated by Spark |
 
 ---
 
-## 🧠 NiFi Role
+## 🧠 NiFi Role — *The Prep Chef* 🔪
 
 Apache NiFi is used as the **ETL layer**.
 
 ### 🔄 NiFi Flow
 
 ```text
-ConsumeKafka
-      ↓
-EvaluateJsonPath
-      ↓
-UpdateAttribute
-      ↓
-ReplaceText
-      ↓
-ValidateRecord
-      ↓
-RouteOnAttribute
-      ↓
-PublishKafka
+🥩 ConsumeKafka
+      ⬇️
+🔍 EvaluateJsonPath
+      ⬇️
+🏷️ UpdateAttribute
+      ⬇️
+✏️ ReplaceText
+      ⬇️
+✅ ValidateRecord
+      ⬇️
+🚦 RouteOnAttribute
+      ⬇️
+📤 PublishKafka
 ```
 
 ### ✅ NiFi Tasks
 
-- Consumes raw events from Kafka  
-- Validates JSON data  
-- Cleans and normalizes fields  
-- Adds missing fields  
-- Publishes cleaned events to another Kafka topic  
+- 📥 Consumes raw events from Kafka
+- 🧪 Validates JSON data
+- 🧼 Cleans and normalizes fields
+- ➕ Adds missing fields
+- 📤 Publishes cleaned events to another Kafka topic
 
 ---
 
-## ⚡ Spark Role
+## ⚡ Spark Role — *The Head Chef* 👨‍🍳
 
 Apache Spark Streaming is used for **real-time analytics**.
 
 ### 📈 Spark Tasks
 
-- Consumes cleaned events from Kafka  
-- Calculates preparation duration  
-- Calculates average preparation time per menu category  
-- Calculates real-time queue length for each kitchen station  
-- Determines kitchen station status  
-- Generates alerts when preparation time exceeds the service-level limit  
-- Stores results in PostgreSQL  
+- 📥 Consumes cleaned events from Kafka
+- ⏱️ Calculates preparation duration
+- 🍔 Calculates average preparation time per menu category
+- 🔥 Calculates real-time queue length for each kitchen station
+- 🚦 Determines kitchen station status
+- 🚨 Generates alerts when preparation time exceeds the service-level limit
+- 🗄️ Stores results in PostgreSQL
 
 ### 🚨 Alert Rule
 
 ```text
-If prep_duration_min > 15
-Then alert_triggered = true
+🍕 If prep_duration_min > 15
+🔥 Then alert_triggered = true
 ```
+
+<div align="center">
+
+| 🟢 Fresh | 🟡 Warning | 🔴 Late! |
+|:---:|:---:|:---:|
+| ≤ 10 min | 10 – 15 min | > 15 min 🚨 |
+
+</div>
 
 ---
 
-## 🗄️ Database
+## 🗄️ Database — *The Pantry* 🧊
 
 PostgreSQL is used to store processed data and alerts.
 
 ### 📌 Main Tables
 
-| Table | Purpose |
+| 🗃️ Table | 🎯 Purpose |
 |---|---|
-| `orders` | Stores order information |
-| `order_events` | Stores order events |
-| `kitchen_station_metrics` | Stores queue and station metrics |
-| `prep_time_alerts` | Stores alerts for delayed orders |
+| `orders` 🧾 | Stores order information |
+| `order_events` 📜 | Stores order events |
+| `kitchen_station_metrics` 📊 | Stores queue and station metrics |
+| `prep_time_alerts` 🚨 | Stores alerts for delayed orders |
 
 ---
 
-## 📺 Dashboard
+## 📺 Dashboard — *The Serving Counter* 🛎️
 
 The dashboard displays:
 
-- 🍔 Average preparation time per menu category  
-- 🍳 Real-time queue length per kitchen station  
-- 🚦 Kitchen station status  
-- 🚨 Alerts for delayed orders  
+- 🍔 Average preparation time per menu category
+- 🍳 Real-time queue length per kitchen station
+- 🚦 Kitchen station status
+- 🚨 Alerts for delayed orders
 
 ---
 
-## 🗂️ Project Structure
+## 🗂️ Project Structure 🧰
 
 ```text
 restaurant-kitchen-monitoring/
-├── data/
-│   └── food_delivery_orders_cleaned.csv
-├── producer/
-│   ├── producer.py
-│   └── requirements.txt
-├── nifi-flow/
-│   ├── nifi_flow_template.xml
-│   └── README.txt
-├── spark-job/
-│   ├── streaming_job.py
-│   └── requirements.txt
-├── database/
-│   ├── init.sql
-│   └── README.txt
-├── dashboard/
-│   ├── app.py
-│   └── requirements.txt
-├── docker-compose.yaml
-├── README.md
-└── .gitignore
+├── 📁 data/
+│   └── 📄 food_delivery_orders_cleaned.csv
+├── 📁 producer/
+│   ├── 🐍 producer.py
+│   └── 📄 requirements.txt
+├── 📁 nifi-flow/
+│   ├── 📄 nifi_flow_template.xml
+│   └── 📄 README.txt
+├── 📁 spark-job/
+│   ├── 🐍 streaming_job.py
+│   └── 📄 requirements.txt
+├── 📁 database/
+│   ├── 🗄️ init.sql
+│   └── 📄 README.txt
+├── 📁 dashboard/
+│   ├── 🐍 app.py
+│   └── 📄 requirements.txt
+├── 🐳 docker-compose.yaml
+├── 📘 README.md
+└── 🙈 .gitignore
 ```
 
 ---
 
-## 🛠️ How to Run
+## 🛠️ How to Run — *The Recipe* 📖👨‍🍳
 
-### 1️⃣ Install Docker Desktop
+### 1️⃣ Install Docker Desktop 🐳
 
 Make sure Docker Desktop is running.
 
-### 2️⃣ Start the Project
+### 2️⃣ Start the Project 🔥
 
 ```bash
 docker compose up -d
 ```
 
-### 3️⃣ Check Running Containers
+### 3️⃣ Check Running Containers 👀
 
 ```bash
 docker compose ps
 ```
 
-### 4️⃣ Run the Kafka Producer
+### 4️⃣ Run the Kafka Producer 🍔
 
 ```bash
 cd producer
@@ -263,25 +280,25 @@ pip install -r requirements.txt
 python producer.py
 ```
 
-### 5️⃣ Open NiFi
+### 5️⃣ Open NiFi 🧠
 
 ```text
-[https://localhost:8443/nifi](https://localhost:8443/nifi)
+https://localhost:8443/nifi
 ```
 
-### 6️⃣ Open Kafka UI
+### 6️⃣ Open Kafka UI 📨
 
 ```text
 http://localhost:8080
 ```
 
-### 7️⃣ Open Spark UI
+### 7️⃣ Open Spark UI ⚡
 
 ```text
 http://localhost:4040
 ```
 
-### 8️⃣ Open PostgreSQL
+### 8️⃣ Open PostgreSQL 🗄️
 
 ```text
 localhost:5432
@@ -289,47 +306,53 @@ localhost:5432
 
 ---
 
-## 👥 Team Roles
+## 👥 Team Roles — *The Kitchen Crew* 🧑‍🍳
 
-| Role | Responsibility |
+| 🧑‍🍳 Role | 💼 Responsibility |
 |---|---|
-| 🟢 Data Source / Kafka Producer | Reads the cleaned dataset and sends order events to Kafka |
-| 🟠 NiFi ETL | Consumes raw events, cleans and transforms them, then publishes cleaned events |
-| 🟡 Spark Streaming | Performs real-time analytics, queue tracking, and alert generation |
-| 🔵 Database / PostgreSQL | Stores processed results and alerts |
-| 🟣 Dashboard | Displays KPIs and alerts |
-| ⚙️ DevOps / Docker | Manages Docker Compose, containers, and project deployment |
+| 🟢 **Data Source / Kafka Producer** 🍔 | Reads the cleaned dataset and sends order events to Kafka |
+| 🟠 **NiFi ETL** 🔪 | Consumes raw events, cleans and transforms them, then publishes cleaned events |
+| 🟡 **Spark Streaming** ⚡ | Performs real-time analytics, queue tracking, and alert generation |
+| 🔵 **Database / PostgreSQL** 🧊 | Stores processed results and alerts |
+| 🟣 **Dashboard** 🛎️ | Displays KPIs and alerts |
+| ⚙️ **DevOps / Docker** 🐳 | Manages Docker Compose, containers, and project deployment |
 
 ---
 
-## 📌 Important Notes
+## 📌 Important Notes 📝
 
-- The Producer sends raw events to Kafka  
-- NiFi performs ETL and sends cleaned events to another Kafka topic  
-- Spark consumes cleaned events and performs analytics  
-- Spark calculates preparation duration, average preparation time, queue length, station status, and alerts  
-- PostgreSQL stores the final results  
-- The dashboard displays the results  
+- 🍔 The Producer sends raw events to Kafka
+- 🔪 NiFi performs ETL and sends cleaned events to another Kafka topic
+- ⚡ Spark consumes cleaned events and performs analytics
+- 🧮 Spark calculates preparation duration, average preparation time, queue length, station status, and alerts
+- 🗄️ PostgreSQL stores the final results
+- 📺 The dashboard displays the results
 
 ---
 
-## 📦 Requirements
+## 📦 Requirements 🧰
 
-- Docker Desktop  
-- Python 3.10 or later  
-- Kafka  
-- Apache NiFi  
-- Apache Spark  
-- PostgreSQL  
+| 🍴 Ingredient | ✅ Needed |
+|---|---|
+| 🐳 Docker Desktop | Yes |
+| 🐍 Python 3.10 or later | Yes |
+| 📨 Kafka | Yes |
+| 🧠 Apache NiFi | Yes |
+| ⚡ Apache Spark | Yes |
+| 🗄️ PostgreSQL | Yes |
 
 ---
 
 <div align="center">
 
-### 🍽️ Built for Real-Time Kitchen Monitoring 🍽️
+### 🍕 🍔 🍟 🌭 🥗 🌮 🥤 🍗 🧀 🍩
+
+# 🍽️ Thank You for Dining With Us! 🍽️
 
 **Kafka + NiFi + Spark + PostgreSQL + Dashboard**
 
-### 🔥 🍕 🍔 🥗 🍟 🥤 🔥
+⭐ *Enjoyed the meal? Leave a star!* ⭐
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,24&height=140&section=footer" width="100%"/>
 
 </div>
