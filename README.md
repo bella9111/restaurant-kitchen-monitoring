@@ -1,48 +1,91 @@
 <div align="center">
 
-# 🍔 Restaurant Kitchen Monitoring 🍕
+# 🍽️ Restaurant Kitchen Monitoring 🍽️
 
-### Real-Time Kitchen Performance Monitoring System
+### 🔥 Real-Time Kitchen Performance Intelligence 🔥
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-9D3747?style=for-the-badge&logo=apache&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Restaurant](https://img.shields.io/badge/Restaurant-Kitchen%20Monitoring-FF6B35?style=for-the-badge&logo=foodpanda&logoColor=white)
+![Real-Time](https://img.shields.io/badge/Real%20Time-Streaming-FFD23F?style=for-the-badge&logo=apachespark&logoColor=black)
+![Big Data](https://img.shields.io/badge/Big%20Data-Pipeline-8E44AD?style=for-the-badge&logo=apache&logoColor=white)
+
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![NiFi](https://img.shields.io/badge/NiFi-9D3747?style=for-the-badge&logo=apache&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### 🍕 🔥 🍔 🥗 🍟 🥤 🔥 🍕
 
 </div>
 
 ---
 
-## 🚀 Project Overview
-
-This project monitors live order processing and preparation performance inside high-volume commercial kitchens and restaurant chains.
-
-The system collects order events, cleans and transforms them using **Apache NiFi**, analyzes them in real time using **Apache Spark Streaming**, stores the results in **PostgreSQL**, and displays them in a dashboard.
+## 🎬 Live Kitchen Dashboard
 
 <div align="center">
 
-### 🔄 Data Pipeline
+![Kitchen Animation](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
+
+</div>
+
+---
+
+## 🍔 Menu of the Pipeline
+
+<div align="center">
+
+### 🧾 The Kitchen Data Menu
+
+| 🍽️ Course | 🧠 Tool | 🔥 What It Does |
+|---|---|---|
+| 🥗 **Starter** | 🟢 Producer | Sends live order events to Kafka |
+| 🍞 **Bread** | 🔴 Kafka | Stores and streams events in topics |
+| 🍝 **Main Course** | 🟠 NiFi | Cleans, validates, and transforms data |
+| 🍛 **Special Dish** | 🟡 Spark | Calculates prep time, queue, and alerts |
+| 🍰 **Dessert** | 🔵 PostgreSQL | Stores results and alerts |
+| 🥤 **Drink** | 🟣 Dashboard | Shows KPIs and live kitchen status |
+
+</div>
+
+---
+
+## 🚀 The Magic Pipeline
+
+<div align="center">
 
 ```text
-Producer → Kafka → NiFi → Kafka → Spark Streaming → PostgreSQL → Dashboard
+🍔 Producer
+      ↓
+🔴 Kafka
+      ↓
+🟠 NiFi ETL
+      ↓
+🔴 Kafka
+      ↓
+🟡 Spark Streaming
+      ↓
+🔵 PostgreSQL
+      ↓
+🟣 Dashboard
 ```
 
 </div>
 
 ---
 
-## 🧩 Project Components
+## 🧨 What This Project Does
 
-| Component | Role |
-|---|---|
-| 🟢 **Producer** | Reads the cleaned dataset and sends order events to Kafka |
-| 🔴 **Kafka** | Receives and stores event streams in topics |
-| 🟠 **NiFi** | Performs ETL: cleaning, validation, and transformation |
-| 🟡 **Spark Streaming** | Performs real-time analytics, queue tracking, and alerts |
-| 🔵 **PostgreSQL** | Stores processed results and alerts |
-| 🟣 **Dashboard** | Displays KPIs, queue length, and alerts |
+This project monitors live order processing and preparation performance inside high-volume commercial kitchens and restaurant chains.
+
+It tracks:
+
+- 🍔 Order placement  
+- 🍳 Preparation start  
+- 🍕 Preparation completion  
+- ⏱️ Preparation duration  
+- 🚦 Kitchen station status  
+- 🚨 Late order alerts  
+- 📊 Real-time queue length  
 
 ---
 
@@ -286,5 +329,7 @@ localhost:5432
 ### 🍽️ Built for Real-Time Kitchen Monitoring 🍽️
 
 **Kafka + NiFi + Spark + PostgreSQL + Dashboard**
+
+### 🔥 🍕 🍔 🥗 🍟 🥤 🔥
 
 </div>
