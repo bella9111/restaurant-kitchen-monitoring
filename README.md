@@ -2,7 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,24&height=230&section=header&text=🍕%20Restaurant%20Kitchen%20Monitoring%20🍔&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Real-Time%20Kitchen%20Performance%20Intelligence&descAlignY=60&descSize=20" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF6B35&center=true&vCenter=true&width=700&lines=🍔+Orders+in...+Data+out!+🔥;🍕+Hot+data%2C+served+in+real+time!;🍟+Kafka+%2B+NiFi+%2B+Spark+%2B+PostgreSQL;🚨+No+late+orders+in+this+kitchen!" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=FF6B35&height=80&section=header&text=Orders%20in...%20Data%20out!&fontSize=30&fontColor=ffffff&fontAlignY=50" width="70%"/>
+
+### 🍔 Hot data, served in real time! 🔥
 
 <br/>
 
