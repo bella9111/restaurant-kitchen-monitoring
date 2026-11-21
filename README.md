@@ -107,7 +107,7 @@ The dataset used in this project is the **Food Delivery Order History Data** fro
 The cleaned dataset is stored in:
 
 ```text
-data/food_delivery_orders_cleaned.csv
+data/food_delivery_orders.csv
 ```
 
 ### ✨ Added Columns (our secret sauce 🌶️)
